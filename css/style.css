@@ -39,6 +39,12 @@ p {
     min-height: 15px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+}
+
 /* header */
 header {
     justify-content: space-around;
@@ -62,11 +68,6 @@ header {
     flex-basis: 33%;
     display: flex;
     justify-content: space-evenly;
-}
-
-a {
-    text-decoration: none;
-    color: white;
 }
 
 .text-container {
@@ -111,6 +112,10 @@ a {
     min-height: 125px;
     min-width: 300px;
     margin: 0;
+}
+
+.special {
+    margin-bottom: 0;
 }
 
 .big-image {
