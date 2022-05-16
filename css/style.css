@@ -133,4 +133,36 @@ span {
 }
 
 /* end main */
+/* list section */
+section {
+    background-color: #23272A;
+    min-width: 100%;
+    justify-content: center;
+    color: white;
+}
+
+ul {
+    width: 1140px;
+}
+
+li {
+    list-style-type: none;
+    margin: 20px;
+}
+
+.big-column {
+    flex-grow: 2;
+    line-height: 50px;
+}
+
+.small-column {
+    min-width: 12.75%;
+    min-height: 250px;
+}
+
+li>div {
+    min-height: 15px;
+}
+
+/* end list */
 /* footer */
