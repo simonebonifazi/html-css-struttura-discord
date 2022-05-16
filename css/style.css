@@ -165,4 +165,20 @@ li>div {
 }
 
 /* end list */
+
+hr {
+    margin: 0 auto;
+}
+
 /* footer */
+
+footer {
+    background-color: #23272A;
+}
+
+footer>div {
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px;
+    min-height: 45px;
+}
