@@ -26,24 +26,34 @@ body {
     padding: 15px;
 }
 
-.border-bis {
-    border: 2px white solid;
+.pbtn-30 {
+    padding-bottom: 30px;
 }
 
-.backround {
-    background-color: limegreen;
+.bg-white {
+    background-color: white;
 }
 
-h1 {
+.bg-grey {
+    background-color: grey;
+}
+
+.debug h1 {
     min-height: 35px;
     margin: 0 auto;
 }
 
-p {
+.debug p {
     min-height: 15px;
 }
 
-a {
+.debug span {
+    min-width: 35%;
+    min-height: 35px;
+    margin-bottom: 50px;
+}
+
+.debug a {
     text-decoration: none;
     color: white;
     border: 1px solid white;
@@ -93,18 +103,17 @@ header {
 
 }
 
-.buttons-up {
-    padding-bottom: 25px;
-}
 
 /* fine header */
 
 /* main */
 .row-container {
-    min-height: 550px;
+    min-height: 50%;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
+    max-width: 1140px;
+    margin: 0 auto;
 
 }
 
@@ -119,16 +128,11 @@ header {
     justify-content: center;
 }
 
-.title-image {
-    min-height: 225px;
-    min-width: 300px;
-    margin: 0;
-}
 
 .description-title {
     min-height: 125px;
     min-width: 300px;
-    margin: 0;
+
 }
 
 .special {
@@ -141,11 +145,6 @@ header {
     margin-bottom: 0;
 }
 
-span {
-    min-width: 35%;
-    min-height: 35px;
-    margin-bottom: 50px;
-}
 
 .sottotitolo {
     flex-direction: column;
@@ -155,21 +154,12 @@ span {
 }
 
 /* end main */
-/* list section */
-section {
+/* footer section */
+footer {
     background-color: #23272A;
     min-width: 100%;
     justify-content: center;
     color: white;
-}
-
-ul {
-    width: 1140px;
-}
-
-li {
-    list-style-type: none;
-    margin: 20px;
 }
 
 .big-column {
@@ -182,9 +172,6 @@ li {
     min-height: 250px;
 }
 
-li>div {
-    min-height: 15px;
-}
 
 /* end list */
 
@@ -196,6 +183,24 @@ hr {
 
 footer {
     background-color: #23272A;
+}
+
+.footer-top {
+    padding-bottom: 35px;
+    border-bottom: 1px solid #6A7FC8;
+    height: 550px;
+}
+
+.big-size-bottom {
+    flex-basis: 32%;
+}
+
+.small-size-bottom {
+    flex-basis: 68%;
+}
+
+.column {
+    flex-basis: 25%;
 }
 
 footer>div {
