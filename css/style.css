@@ -203,9 +203,6 @@ footer {
     flex-basis: 25%;
 }
 
-footer>div {
+.footer-bottom {
     justify-content: space-between;
-    align-items: flex-start;
-    padding: 15px;
-    min-height: 45px;
 }
